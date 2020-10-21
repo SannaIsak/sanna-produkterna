@@ -1,23 +1,48 @@
 body{
-    background-color: #D7A0D7;
-    display: flex;
-    flex-direction: column;
-
+    background-color: #D4D4D4;
+    margin: 0;
+    padding: 0;
 }
 
 .container{
     display: flex;
+    background-color: #464646;
+    padding: 10px;
 }
 
 .item{
+    display: block;
     flex-grow: 1;
-    height: 100px;
-    background-color: aliceblue;
+    height: 80px;
+    display: table;
     text-align: center;
 }
 
 .item + .item{
     margin-left: 2%;
+}
+
+a:hover{
+    background-color: #282828;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    display: table-cell;
+    vertical-align: middle;
+    color: white
+}
+
+.img_cart{
+    height: 50px;
+}
+
+h1{
+    color: #323232;
+    text-align: center;
 }
 
 .container2{
@@ -27,15 +52,11 @@ body{
 .item2{
     flex-grow: 1;
     height: 100px;
-    background-color: blueviolet;
+    background-color:;
     text-align: center; 
 }
 
-.container3{
-    flex: 1 0 auto;
-}
 footer{
-    flex-shrink: 0;
+    color: #323232;
     text-align: center;
-
 }
