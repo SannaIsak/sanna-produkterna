@@ -36,16 +36,13 @@ body{
     margin-left: 2%;
 }
 
-a:hover{
+.item_center:hover a{
     background-color: #282828;
 }
 
-a{
-    text-decoration: none;
-}
-
 .nav_text{
-    color: white
+    color: white;
+    text-decoration: none;
 }
 
 .nav_img{
@@ -58,15 +55,47 @@ h1{
     text-align: center;
 }
 
+.phone_types_div{
+    background-color: #464646;
+    width: 15%;
+    height: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
 .container2{
     display: flex;
+    padding: 10px;
 }
 
 .item2{
     flex-grow: 1;
-    height: 100px;
-    background-color:;
+    height: 100%;
     text-align: center; 
+}
+
+.item2 + .item2{
+    margin-left: 2%;
+}
+
+.first_page_img{
+    width: 150px;
+    height: auto;
+}
+
+.nyhet_text{
+    color: red;
+}
+
+.kontakta_div{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.om_oss_div{
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
 }
 
 footer{
@@ -78,10 +107,10 @@ footer{
     width: 100%;
     overflow: hidden;
     background-color: #464646;
+    margin-top: 20px;
 }
 
 .fotter_text{
     color: white;
-    margin-top: 3%;
 }
 
