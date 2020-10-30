@@ -36,13 +36,16 @@ body{
     margin-left: 2%;
 }
 
-.item_center:hover a{
+.item_center:hover{
+    background-color: #282828;
+}
+
+.item:hover{
     background-color: #282828;
 }
 
 .nav_text{
     color: white;
-    text-decoration: none;
 }
 
 .nav_img{
@@ -61,6 +64,18 @@ h1{
     height: 100%;
     margin-top: 50px;
     text-align: center;
+    padding: 3px;
+}
+
+.phone_types_text{
+    color: white;
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.phone_types_text:hover{
+    color: #282828;
 }
 
 .container2{
@@ -112,5 +127,9 @@ footer{
 
 .fotter_text{
     color: white;
+}
+
+a{
+    text-decoration: none;
 }
 
