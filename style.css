@@ -123,6 +123,9 @@ h1{
 
 .container4{
     display: flex;
+    margin-left: 22%;
+    padding-left: 6px;
+    
 }
 
 .item4{
@@ -152,9 +155,9 @@ footer{
     bottom: 0;
     height: 100px;
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: #464646;
-    margin-top: 20px;
+    
 }
 
 .fotter_text{
@@ -163,5 +166,9 @@ footer{
 
 a{
     text-decoration: none;
+}
+
+.content_wrap{
+    padding-bottom: 100px;
 }
 
