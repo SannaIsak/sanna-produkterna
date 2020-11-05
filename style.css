@@ -10,8 +10,8 @@ body{
 }
 
 @font-face{
-    font-family: ;
-    src: url( )
+    font-family: champagne_limousines;
+    src: url(champagne_limousines/Champagne_Limousines.ttf)
 }
 
 .container{
@@ -61,11 +61,13 @@ body{
 h1{
     color: #323232;
     text-align: center;
+    font-family: champagne_limousines;
 }
 
 .container2{
     display: flex;
     padding: 10px;
+    height: 450px;
 }
 
 .item2{
@@ -81,10 +83,6 @@ h1{
 .first_page_img{
     width: 150px;
     height: auto;
-}
-
-.nyhet_text{
-    color: red;
 }
 
 .parent_produkter{
@@ -159,7 +157,6 @@ footer{
     height: 100px;
     width: 100%;
     background-color: #464646;
-    
 }
 
 .fotter_text{
@@ -170,7 +167,9 @@ a{
     text-decoration: none;
 }
 
-
+p{
+    font-family: champagne_limousines;
+}
 
 .content_wrap{
     padding-bottom: 100px;
